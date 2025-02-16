@@ -1,5 +1,5 @@
-import { navbar, menuSelector } from "../header/header.js";
-import { footer } from "../Script/footer.js";
+import { navbar, menuSelector } from "../header.js";
+import { footer } from "../footer.js";
 
 
 addEventListener("load", () => {
@@ -281,7 +281,7 @@ let sortByPriceHL = (data) => {
 
 let btn_pr_viewcart = document.getElementById("btn_pr_viewcart");
 btn_pr_viewcart.addEventListener("click", () => {
-  window.location.href = "../pages/cart.html";
+  window.location.href = "../cart.html";
 });
 
 /*
